@@ -49,6 +49,13 @@ O arquivo ``documento.pdf`` será gerado
 
 O arquivo ``documento.pdf`` será gerado
 
+### OverLeaf
+
+De alguma maneira o OverLeaf não compila se a lista de pacotes e outros não estiver no documento principal.
+
+1. Retire o ``\input{lib/preambulo}`` do ``documento.tex`` e insira todo o conteúdo do preambulo no próprio ``documento.tex`` (no mesmo local da importação do preambulo).
+
+
 # Dicas
 Veja a seguir como inserir alguns elementos no seu texto.
 
